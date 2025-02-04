@@ -1,6 +1,10 @@
 % Компенсація ефекту інтегрального перерегулювання
-clear all
+%
+% Реалізувати та дослідити властивості алгоритму Back-calculation 
+% для компенсації перерегулювання PID
+% Файл для редагування - model_backcalculation.m
 
+clear all
 % Перевірка середовища виконання
 check_octave;
 
@@ -30,6 +34,8 @@ plot(t3,y3(:,3));
 grid on
 title("Значення регульованого параметру");
 xlabel("Час, с");
+hold off;
+
 subplot(2,1,2)
 plot(t, y(:,4));
 hold on;
@@ -40,3 +46,4 @@ legend("Classic PID","Bound PID","Clamping PID","Back Calculation PID");
 grid on;
 title("Значення інтегральної складової");
 xlabel("Час, с");
+hold off;

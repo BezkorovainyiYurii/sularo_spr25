@@ -4,6 +4,9 @@
 
 2. Реалізувати та дослідити властивості алгоритму Back-calculation для компенсації перерегулювання PID
 
+
+
+
 ## Посилання
 
 [Опис моделі повздовжнього каналу літака](https://ctms.engin.umich.edu/CTMS/index.php?example=AircraftPitch&section=SystemModeling)
